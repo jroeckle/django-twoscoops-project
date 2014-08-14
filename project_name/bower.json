@@ -1,0 +1,23 @@
+{
+  "name": "Django-twoscoops-project-foundation",
+  "version": "0.0.1",
+  "description": "",
+  "keywords": [
+    "boilerplate",
+    "foundation"
+  ],
+  "authors": [
+    "Jason Roeckle"
+  ],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "static/js/libs",
+    "node_modules"
+  ],
+  "dependencies": {
+    "modernizr": "~2.8.3",
+    "jquery": "~1.11.0",
+    "foundation": "~5.3.3"
+  }
+}

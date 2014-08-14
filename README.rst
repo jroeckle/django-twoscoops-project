@@ -68,13 +68,10 @@ Creating your project
 To create a new Django project called '**icecream**' using
 django-twoscoops-project, run the following command::
 
-    $ django-admin.py startproject --template=https://github.com/twoscoops/django-twoscoops-project/archive/master.zip --extension=py,rst,html icecream_project
+    $ django-admin.py startproject --template=https://github.com/jroeckle/django-twoscoops-project/archive/master.zip --extension=py,rst,html icecream_project
+    
 
-For Django 1.5 users, we recommend::
-
-    $ django-admin.py startproject --template=https://github.com/twoscoops/django-twoscoops-project/archive/1.5.zip --extension=py,rst,html icecream_project
-
-Installation of Dependencies
+Installation of Python Dependencies
 =============================
 
 Depending on where you are installing dependencies:
@@ -89,6 +86,28 @@ For production::
 
 *note: We install production requirements this way because many Platforms as a
 Services expect a requirements.txt file in the root of projects.*
+
+Installation of Bower Dependencies
+=============================
+
+Install Bower
+
+    $ npm install -g bower
+
+Run bower install
+
+    $ bower install
+
+Setup Compass
+=============================
+
+Install SCSS
+
+    $ gem install compass
+
+Go to 
+
+    $ bower install
 
 Follows Best Practices
 ======================
