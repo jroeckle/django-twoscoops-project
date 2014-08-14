@@ -1,8 +1,10 @@
-========================
-django-twoscoops-project
-========================
+===================================
+django-twoscoops-project-foundation
+===================================
 
-A project template for Django 1.6 (with a tag for Django 1.5).
+A project template for Django 1.6 (with a tag for Django 1.5).  It is based on the 
+Two Scoops of Django layout(https://github.com/twoscoops/django-twoscoops-project).
+Uses Zurb Foundation 5 instead of Bootstrap.
 
 To use this project follow these steps:
 
