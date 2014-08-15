@@ -107,9 +107,9 @@ Install SCSS
 
     $ gem install compass
 
-Go to 
+Go to 'icecream_project' (or whatever you have named your project)
 
-    $ bower install
+    $ compass watch
 
 Follows Best Practices
 ======================
